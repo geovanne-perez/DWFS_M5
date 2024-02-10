@@ -11,11 +11,9 @@ function App() {
 
   
   const [InitCount,setCount] = useState([0])
-  
+
   const CountUp = () => {setCount(InitCount + 1)}
   const CountDown = () => {setCount(InitCount - 1)}
-
-  
 
   return (
     <>
